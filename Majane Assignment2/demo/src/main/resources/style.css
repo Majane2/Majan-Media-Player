@@ -1,0 +1,394 @@
+.root {
+    -fx-background-color: #160610;
+    -fx-font-family: "Segoe UI";
+}
+
+
+.sidebar {
+    -fx-background-color: #1c0814;
+    -fx-pref-width: 245px;
+}
+
+.logo {
+    -fx-text-fill: white;
+    -fx-font-size: 25px;
+    -fx-font-weight: bold;
+}
+
+.subtitle {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 10px;
+}
+
+.section-title {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.navigation-button {
+    -fx-background-color: transparent;
+    -fx-text-fill: #f2c4dc;
+    -fx-font-size: 15px;
+    -fx-background-radius: 10px;
+    -fx-padding: 13px;
+}
+
+.navigation-button:hover {
+    -fx-background-color: #2e0d22;
+    -fx-text-fill: white;
+}
+
+.playlist-list {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.playlist-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 9px;
+    -fx-background-radius: 10px;
+}
+
+.playlist-list .list-cell:selected {
+    -fx-background-color: linear-gradient(
+        to right,
+        #ff2d95,
+        #c918b8
+    );
+}
+
+.playlist-name {
+    -fx-text-fill: white;
+    -fx-font-size: 14px;
+}
+
+.playlist-count {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 11px;
+}
+
+.create-playlist-button {
+    -fx-background-color: #2b0e22;
+    -fx-text-fill: white;
+    -fx-border-color: #5e1a45;
+    -fx-border-radius: 9px;
+    -fx-background-radius: 9px;
+    -fx-padding: 12px;
+}
+
+.create-playlist-button:hover {
+    -fx-background-color: #3c1530;
+}
+
+.music-card {
+    -fx-background-color: linear-gradient(
+        to bottom right,
+        #2b0a20,
+        #1f0817
+    );
+    -fx-background-radius: 15px;
+    -fx-padding: 18px;
+}
+
+.card-title {
+    -fx-text-fill: #ff5eae;
+    -fx-font-size: 12px;
+    -fx-font-weight: bold;
+}
+
+.card-text {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 12px;
+}
+
+.main-area {
+    -fx-background-color: #160610;
+}
+
+.page-title {
+    -fx-text-fill: white;
+    -fx-font-size: 21px;
+    -fx-font-weight: bold;
+}
+
+.format-label {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 11px;
+}
+
+.media-container {
+    -fx-background-color: #0d0409;
+    -fx-background-radius: 18px;
+    -fx-border-color: #4a1235;
+    -fx-border-radius: 18px;
+}
+
+.empty-media {
+    -fx-text-fill: #a1557c;
+    -fx-font-size: 15px;
+    -fx-font-weight: bold;
+}
+
+.track-title {
+    -fx-text-fill: white;
+    -fx-font-size: 22px;
+    -fx-font-weight: bold;
+}
+
+.artist-label {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 14px;
+}
+
+.progress-slider .track {
+    -fx-background-color: #3b0f2d;
+}
+
+.progress-slider .thumb {
+    -fx-background-color: #ff2d95;
+}
+
+.control-button {
+    -fx-background-color: #2a0c1d;
+    -fx-text-fill: white;
+    -fx-font-size: 19px;
+    -fx-background-radius: 50%;
+    -fx-border-color: #5e1a45;
+    -fx-border-radius: 50%;
+    -fx-min-width: 50px;
+    -fx-min-height: 50px;
+}
+
+.control-button:hover {
+    -fx-background-color: #3c1530;
+}
+
+.control-button:nth-child(3) {
+    -fx-background-color: #ff2d95;
+    -fx-border-color: #ff5eae;
+    -fx-min-width: 65px;
+    -fx-min-height: 65px;
+}
+
+.volume-slider .track {
+    -fx-background-color: #3b0f2d;
+}
+
+.volume-slider .thumb {
+    -fx-background-color: #ff2d95;
+}
+
+.volume-icon {
+    -fx-font-size: 16px;
+}
+
+.mute-button {
+    -fx-background-color: #2b0e22;
+    -fx-text-fill: white;
+    -fx-background-radius: 8px;
+    -fx-padding: 9px 15px;
+}
+
+.playlist-panel {
+    -fx-background-color: #1a0713;
+    -fx-pref-width: 390px;
+}
+
+.playlist-panel-title {
+    -fx-text-fill: white;
+    -fx-font-size: 20px;
+    -fx-font-weight: bold;
+}
+
+.track-count {
+    -fx-text-fill: #d18cb3;
+}
+
+.add-button {
+    -fx-background-color: linear-gradient(
+        to right,
+        #ff2d95,
+        #c918b8
+    );
+    -fx-text-fill: white;
+    -fx-font-weight: bold;
+    -fx-background-radius: 9px;
+    -fx-padding: 10px 15px;
+}
+
+.remove-button {
+    -fx-background-color: #3a0e22;
+    -fx-text-fill: #ff5eae;
+    -fx-border-color: #6b1c40;
+    -fx-border-radius: 9px;
+    -fx-background-radius: 9px;
+    -fx-padding: 10px 15px;
+}
+
+.track-list {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.track-list .list-cell {
+    -fx-background-color: transparent;
+    -fx-text-fill: white;
+    -fx-padding: 10px;
+    -fx-background-radius: 10px;
+}
+
+.track-list .list-cell:hover {
+    -fx-background-color: #2a0c1d;
+}
+
+.track-list .list-cell:selected {
+    -fx-background-color: linear-gradient(
+        to right,
+        #4a0f2e,
+        #2a0a20
+    );
+}
+
+.track-number {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 12px;
+    -fx-min-width: 25px;
+}
+
+.track-name {
+    -fx-text-fill: white;
+    -fx-font-size: 13px;
+}
+
+.track-type {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 10px;
+}
+
+.status-label {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 11px;
+}
+
+.track-menu-button > .arrow-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.track-menu-button > .arrow-button > .arrow {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.track-menu-button {
+    -fx-background-insets: 0;
+    -fx-background-radius: 6;
+}
+
+.track-menu-button:hover {
+    -fx-background-color: #3c1530;
+}
+
+/* Dropdown menu popup */
+.context-menu {
+    -fx-background-color: #240a1a;
+    -fx-border-color: #ff2d95;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4 0;
+}
+
+.menu-item {
+    -fx-background-color: transparent;
+    -fx-padding: 8 20;
+}
+
+.menu-item .label {
+    -fx-text-fill: #f2c4dc;
+    -fx-font-size: 13px;
+}
+
+.menu-item:focused {
+    -fx-background-color: #ff2d95;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
+
+.bottom-bar {
+    -fx-background-color: #1c0814;
+    -fx-border-color: #3b0f2d transparent transparent transparent;
+}
+
+.keyboard-title {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.key {
+    -fx-background-color: #2b0e22;
+    -fx-text-fill: #f2c4dc;
+    -fx-border-color: #5e1a45;
+    -fx-border-radius: 5px;
+    -fx-background-radius: 5px;
+    -fx-padding: 4px 8px;
+    -fx-font-size: 11px;
+    -fx-font-weight: bold;
+}
+
+.key-description {
+    -fx-text-fill: #d18cb3;
+    -fx-font-size: 9px;
+}
+
+/* 3-DOT TRACK MENU */
+.track-menu-button > .arrow-button {
+    -fx-padding: 0;
+    -fx-background-color: transparent;
+}
+
+.track-menu-button > .arrow-button > .arrow {
+    -fx-background-color: transparent;
+    -fx-padding: 0;
+}
+
+.track-menu-button {
+    -fx-background-insets: 0;
+    -fx-background-radius: 6;
+}
+
+.track-menu-button:hover {
+    -fx-background-color: #3c1530;
+}
+
+.context-menu {
+    -fx-background-color: #240a1a;
+    -fx-border-color: #ff2d95;
+    -fx-border-width: 1;
+    -fx-border-radius: 8;
+    -fx-background-radius: 8;
+    -fx-padding: 4 0;
+}
+
+.menu-item {
+    -fx-background-color: transparent;
+    -fx-padding: 8 20;
+}
+
+.menu-item .label {
+    -fx-text-fill: #f2c4dc;
+    -fx-font-size: 13px;
+}
+
+.menu-item:focused {
+    -fx-background-color: #ff2d95;
+}
+
+.menu-item:focused .label {
+    -fx-text-fill: white;
+}
